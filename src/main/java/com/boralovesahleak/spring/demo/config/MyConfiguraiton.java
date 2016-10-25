@@ -19,11 +19,6 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.boralovesahleak.spring.dao.StudentDao;
-import com.boralovesahleak.spring.dao.impl.StudentDaoImpl;
-import com.boralovesahleak.spring.service.StudentService;
-import com.boralovesahleak.spring.service.impl.StudentServiceImpl;
-
 /**
  * This is for db, bean configuration
  * @author channbora
